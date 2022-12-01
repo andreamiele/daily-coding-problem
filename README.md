@@ -14,6 +14,8 @@ If you see ways in which I can improve my solutions, please provide feedback.
 
 Thanks!
 
+You can find here [my CodinGame profile](https://www.codingame.com/profile/50deebbc96f8f04924ec0962ad6caf1e3627174) where I try to do some activities and challenges when I have some free time.
+
 You can also find monthly challenges where I try to participate as often as I can.
 
 ## Challenges done
