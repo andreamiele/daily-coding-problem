@@ -37,20 +37,18 @@
 
 ##################### Solution #####################
 
-f = open("input.txt","r")
+f = open("AoC2022\day1\input.txt","r")
 lines = f.readlines()
 current=0
 list=[]
 for i in range(len(lines)):
-    print(lines[i])
-    print(i)
     if lines[i]=="\n":
         list.append(current)
         current=0;
     else:
         current+=int(lines[i])
 list.sort()
-print(list[-1])
+print("Elf carrying the most Calories: "+ str(list[-1]))
 
 
 # Your puzzle answer was 67633.
@@ -69,21 +67,18 @@ print(list[-1])
 
 ##################### Solution #####################
 
-f = open("input.txt","r")
+f = open("AoC2022\day1\input.txt","r")
 lines = f.readlines()
 current=0
 list=[]
 for i in range(len(lines)):
-    print(lines[i])
-    print(i)
     if lines[i]=="\n":
         list.append(current)
         current=0;
     else:
         current+=int(lines[i])
 list.sort()
-print(list)
 sum=list[-1]+list[-2]+list[-3]
-print(sum)
+print("Sum of the three: "+ str(sum))
 
 # Your puzzle answer was 199628.
