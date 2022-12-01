@@ -6,7 +6,7 @@ I am challenging myself with daily coding problem.
 
 My goal is to become a little better everyday at solving code challenges.
 
-*Languages often used:* Python, JS, C#.
+**Languages often used:** Python, JS, C#.
 
 I hope to become a little better everyday.
 
