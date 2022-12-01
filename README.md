@@ -18,7 +18,7 @@ You can also find monthly challenges where I try to participate as often as I ca
 
 ## Challenges done
 
-[ ] [Advent of Code 2022](https://adventofcode.com/2022) (AoC2022 folder)
+- [ ] [Advent of Code 2022](https://adventofcode.com/2022) (AoC2022 folder)
 
 ## How to run a solution
 
