@@ -62,15 +62,6 @@ def process_input(data: list):
 def is_contained(child, parent):
     return child[0] >= parent[0] and child[1] <= parent[1]
 
-
-def partial_overlap(part_a, part_b):
-    if part_b[0] <= part_a[0] <= part_b[1]:
-        return True
-    elif part_b[0] <= part_a[1] <= part_b[1]:
-        return True
-    return False
-
-
 def part1(input_data):
     count = 0
     for pair in input_data:
@@ -115,6 +106,13 @@ if __name__ == '__main__':
 
 
 ##################### Solution #####################
+
+def partial_overlap(part_a, part_b):
+    if part_b[0] <= part_a[0] <= part_b[1]:
+        return True
+    elif part_b[0] <= part_a[1] <= part_b[1]:
+        return True
+    return False
 
 def part2(input_data):
     count = 0
