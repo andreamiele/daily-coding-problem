@@ -37,22 +37,13 @@
 
 f = open("../../AoC2022/day3/input.txt","r")
 lines = f.readlines()
-list=[]
 sum=0
 for i in range(len(lines)):
-    print("\n")
-    print( i)
     backpack= lines[i]
-
     n = len(backpack)-1
     mid1=backpack[0:n//2]
     mid2=backpack[n//2:n]
-
-    common_characters = ''.join(
-    set(mid1).intersection(mid2))
-    print(mid1)
-    print(mid2)
-    print(common_characters)
+    common_characters = ''.join(set(mid1).intersection(mid2))
     x = ord(common_characters)
     if x>=97:
         if x<=122:
@@ -60,8 +51,6 @@ for i in range(len(lines)):
     if x>=65:
         if x<=90:
             x-=38
-    print("val=")
-    print(x)
     sum+=x
 print(sum)
 
@@ -99,11 +88,8 @@ print(sum)
 
 f = open("../../AoC2022/day3/input.txt","r")
 lines = f.readlines()
-list=[]
 sum2=0
 for i in range(0,len(lines),3):
-    print("\n")
-    print(i)
     backpack= lines[i][0:len(lines[i])-1]
     backpack2=lines[i+1][0:len(lines[i+1])-1]
     backpack3=lines[i+2][0:len(lines[i+2])-1]
@@ -112,9 +98,6 @@ for i in range(0,len(lines),3):
         if w in backpack2:
             if w in backpack3:
                 my_str += w
-    print(my_str[0])
-
-
     x = ord(my_str[0])
     if x>=97:
         if x<=122:
@@ -122,7 +105,6 @@ for i in range(0,len(lines),3):
     if x>=65:
         if x<=90:
             x-=38
-
     sum2+=x
 print(sum2)
 
