@@ -1,0 +1,33 @@
+from collections import defaultdict
+from pprint import pprint
+
+if __name__ == '__main__':
+    import os
+    with open(os.path.join(os.path.dirname(__file__), "input.txt"))as f:
+        raw_data = f.read().strip().split(",")
+        freq = defaultdict(int)
+        for i in raw_data:
+            freq[int(i)] += 1
+
+
+# We have to be smart now
+days = 256
+
+for _ in range(days):
+    # New dict to store frequencies
+    new_freq = defaultdict(int)
+
+    for key in freq:
+        if key == 0:
+            new_freq[6] += freq[key]
+            new_freq[8] = freq[key]
+        else:
+            new_freq[key - 1] += freq[key]
+
+    freq = new_freq
+
+ans = 0
+pprint(freq)
+for key in freq:
+    ans += freq[key]
+print(ans)
