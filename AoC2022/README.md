@@ -8,3 +8,6 @@ Second year where I am doing this challenge. I will do it in Python and post my 
 The goal of this calendar is skill-improving, self-teaching and the improvement of one's will to challenge.
 
 Private Leaderboard accessible via request.
+
+
+Top 976 on day 16 yuhu, first time being in top 1000.
