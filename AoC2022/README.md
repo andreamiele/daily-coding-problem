@@ -13,4 +13,4 @@ Private Leaderboard accessible via request.
 Top 976 on day 16 yuhu, first time being in top 1000.
 
 
-I follow my progress on Mathis Hammel's Leaderboard, as for the general one, I would need to wake up at 6am every day.
+I follow my progress on Mathis Hammel's Leaderboard, as for the general one, I would have needed to wake up at 6am every day.
