@@ -18,6 +18,7 @@ for obj in tab:
 print(monkeys["root"])
 
 #Part 2
+#pip3 install sympy
 import sympy
 
 monkeys = { "humn": sympy.Symbol("x") }
