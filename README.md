@@ -18,8 +18,8 @@ You can also find monthly challenges where I try to participate as often as I ca
 ## Challenges done
 
 - [X] [Advent of Code 2021](https://adventofcode.com/2021) (AoC2021 folder - **TO UPLOAD** - uploaded until Day 3, remaining part is to upload)
-- [ ] [Advent of Code 2022](https://adventofcode.com/2022) (AoC2022 folder)
+- [X] [Advent of Code 2022](https://adventofcode.com/2022) (AoC2022 folder)
 
 ## How to run a solution
 
-TODO
+Other years
